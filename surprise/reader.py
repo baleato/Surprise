@@ -26,8 +26,8 @@ class Reader():
     Args:
         name(:obj:`string`, optional): If specified, a Reader for one of the
             built-in datasets is returned and any other parameter is ignored.
-            Accepted values are 'ml-100k', 'ml-1m', and 'jester'. Default
-            is ``None``.
+            Accepted values are 'ml-100k', 'ml-1m', 'ml-10m', 'ml-20m' and
+            'jester'. Default is ``None``.
         line_format(:obj:`string`): The fields names, in the order at which
             they are encountered on a line. Please note that ``line_format`` is
             always space-separated (use the ``sep`` parameter). Default is
